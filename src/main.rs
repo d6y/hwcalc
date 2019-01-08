@@ -14,6 +14,10 @@ fn main() {
         let (AA, Aa, aa) = (freq[0], freq[1], freq[2]);
         let p = AA + (0.5 * Aa);
         let q = aa + (0.5 * Aa);
+
+        println!("p(A) = {:.2}", p);
+        println!("q(a) = {:.2}", q);
+
         let hw_2pq = 2.0 * p * q;
 
         println!("p^2 = {:.2}", p.powi(2) );
